@@ -1,0 +1,131 @@
+{
+  "title": "Free Speech or Hate Speech?",
+  "baseline_sentiment": {
+    "positive": 0.25,
+    "neutral": 0.5,
+    "negative": 0.25
+  },
+  "events": [
+    {
+      "minute": 1,
+      "type": "headline",
+      "source": "Local Chronicle",
+      "title": "College Lecturer Suspended Over Controversial Social Media Activity",
+      "tone": "neutral",
+      "impact": {
+        "negative": 0.05
+      }
+    },
+    {
+      "minute": 5,
+      "type": "tweet",
+      "handle": "@FreeSpeechNow",
+      "followers": 82000,
+      "text": "Another woke witch hunt. Lecturer punished for having an opinion. Academic freedom is DEAD.",
+      "retweets_first5min": 300,
+      "impact": {
+        "negative": 0.1
+      }
+    },
+    {
+      "minute": 8,
+      "type": "email",
+      "from": "Local Journalist",
+      "subject": "Statement request \u2014 suspension of lecturer",
+      "body": "We\u2019re running a follow-up for online in the next hour. Can you confirm suspension and comment on the college\u2019s stance?",
+      "decision_point": "Respond now with holding statement or delay pending internal review?"
+    },
+    {
+      "minute": 12,
+      "type": "tweet",
+      "handle": "@UKTruthVoice",
+      "followers": 250000,
+      "text": "If you can be fired for a like, your speech is already censored. This is dangerous.",
+      "impact": {
+        "negative": 0.15
+      }
+    },
+    {
+      "minute": 16,
+      "type": "post",
+      "platform": "Facebook",
+      "actor": "College SU",
+      "text": "Racism has no place on our campus. We expect strong action to protect students and uphold college values.",
+      "reactions": 1200,
+      "comments": 300,
+      "impact": {
+        "positive": 0.05
+      }
+    },
+    {
+      "minute": 20,
+      "type": "headline",
+      "source": "Daily Mail Online",
+      "title": "Free Speech Row at [College Name]",
+      "tone": "critical",
+      "pull_quote": "Woke mob",
+      "impact": {
+        "negative": 0.2
+      }
+    },
+    {
+      "minute": 25,
+      "type": "media_request",
+      "from": "BBC Radio 4 Today",
+      "request": "Live interview with college principal tomorrow morning.",
+      "options": [
+        "Accept and frame message live",
+        "Decline and issue written statement",
+        "Offer deputy spokesperson instead"
+      ]
+    },
+    {
+      "minute": 30,
+      "type": "trend",
+      "hashtag": "#FreeSpeechNotSuspension",
+      "mentions_30m": 12000,
+      "sentiment_distribution": {
+        "negative": 0.65,
+        "positive": 0.25,
+        "neutral": 0.1
+      }
+    },
+    {
+      "minute": 35,
+      "type": "linkedin",
+      "actor": "Alumni Group",
+      "text": "As alumni, we are saddened to see our college in the news for the wrong reasons. The investigation must be fair, but values must be upheld.",
+      "impact": {
+        "neutral": 0.02
+      }
+    },
+    {
+      "minute": 40,
+      "type": "tv",
+      "source": "Sky News",
+      "segment": "Academic Suspended for Social Media Post",
+      "format": "Debate: free speech vs. racism on campus.",
+      "impact": {
+        "negative": 0.1
+      }
+    },
+    {
+      "minute": 45,
+      "type": "opportunity",
+      "title": "Local charity partnership story ready to publish",
+      "question": "Push now to soften coverage, or hold to avoid looking like a distraction?"
+    },
+    {
+      "minute": 50,
+      "type": "internal",
+      "from": "College Principal",
+      "text": "Precautionary suspension pending investigation. We are committed to free speech and zero tolerance for harassment or discrimination."
+    },
+    {
+      "minute": 60,
+      "type": "wrap",
+      "summary": "National coverage in 5 outlets. Hashtag at 18k mentions. Net sentiment \u201322 vs. baseline."
+    }
+  ],
+  "gold_standard_statement": "[College Name] Statement Regarding Ongoing Investigation\n\n\u201c[College Name] has temporarily suspended a member of staff following concerns raised about their recent social media activity. This decision is a neutral step taken to allow a full and fair investigation to take place without prejudice.\nWe are committed to protecting both the right to lawful free expression and the right of our students and staff to work and study in an environment free from harassment or discrimination.\n\nThe investigation will consider all relevant evidence before reaching any conclusion. While that process is ongoing, we will not be making further comment. We ask for patience and respect for due process.\u201d\n\n\u2014 [College Principal / Spokesperson Name]"
+}
